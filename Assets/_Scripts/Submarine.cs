@@ -12,7 +12,7 @@ public class Submarine : Character
     void Start()
     {
         _controller = FindAnyObjectByType<GameController>();
-
+        Debug.Log("Субмарина");
     }
 
 
